@@ -52,7 +52,7 @@ jobs:
         #GITEE_REPO: gitee.com/yifanzheng/yifangzheng.gitee.io.git
       # 将编译后的博客文件推送到指定仓库
       run: |
-        cd ./public && git init && git add .
+        git init && git add .
         git config user.name "xpnobug"
         git config user.email "669307582@qq.com"
         git add .
